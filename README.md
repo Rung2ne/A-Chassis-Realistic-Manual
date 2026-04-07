@@ -4,7 +4,8 @@
 ![Environment](https://img.shields.io/badge/ENV-ff0000?style=for-the-badge&logo=ENV&logoColor=white)
 ![Windows 11](https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white)![Roblox Studio](https://img.shields.io/badge/Roblox%20Studio-%230a0b0b.svg?style=for-the-badge&logo=Roblox%20Studio&logoColor=white)<br/>
 ![Language](https://img.shields.io/badge/LAN-ff0000?style=for-the-badge&logo=LAN&logoColor=white)	![Luau](https://img.shields.io/badge/luau-%232C2D72.svg?style=for-the-badge&logo=luau&logoColor=white)<br/>
-![Package](https://img.shields.io/badge/PKG-ff0000?style=for-the-badge&logo=PKG&logoColor=white) ![None](https://img.shields.io/badge/None-000000?style=for-the-badge&logo=None&logoColor=white)
+![Package](https://img.shields.io/badge/PKG-ff0000?style=for-the-badge&logo=PKG&logoColor=white) ![None](https://img.shields.io/badge/None-000000?style=for-the-badge&logo=None&logoColor=white)<br/>
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z11XE7EJ)
 
 ## Roblox A-Chassis Car Realistic Manual.
 
@@ -52,4 +53,5 @@
 
 ## 📄 라이선스
 본 프로젝트는 **MIT License**를 따릅니다.
-<br><sub>본 스크립트 수정 및 사용으로 인해 발생하는 모든 문제(오류 등)에 대해 원작자는 어떠한 책임도 지지 않습니다. 모든 사용 책임은 사용자 본인에게 있습니다.</sub>
+<br><sub>본 스크립트 수정 및 사용으로 인해 발생하는 모든 문제(오류 등)에 대해 원작자는 어떠한 책임도 지지 않습니다. 모든 사용 책임은 사용자 본인에게 있습니다.</sub><br/><br/>
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z11XE7EJ)
