@@ -7,39 +7,47 @@
 ![Package](https://img.shields.io/badge/PKG-ff0000?style=for-the-badge&logo=PKG&logoColor=white) ![None](https://img.shields.io/badge/None-000000?style=for-the-badge&logo=None&logoColor=white)
 ## Roblox A-Chassis Car Realistic Manual.
 
-## - Drive.lua 열기
-Car.A-Chassis Interface.Drive
+> [!NOTE]  
+> 본 리포지토리는 Roblox A-Chassis의 수동 변속기(Manual) 기믹을 보다 현실적으로 구현하기 위한 스크립트 수정 방법을 다룹니다.
 
-## - Ctrl+F 누르고 아래의 내용 검색하기
+Roblox A-Chassis Car Realistic Manual 적용 가이드입니다.
 
-`function Gear()`
+## ⚠️ 필수 준비물
+* **A-Chassis**가 적용된 차량(Car) 모델이 준비되어 있어야 합니다.
 
-그 부분을 아래의 코드 파일 속 내용으로 교체하기.
+## 🚀 적용 방법
 
-(function gear().luau)
+1. **`Drive.lua` 스크립트 열기**
+   * 탐색기(Explorer) 경로: `Car` > `A-Chassis Interface` > `Drive`
 
-## - Ctrl+F 누르고 아래의 내용 검색하기
+2. **`Gear()` 함수 수정하기**
+   * 스크립트 내에서 `Ctrl + F`를 눌러 아래의 코드를 검색합니다.
+     ```lua
+     function Gear()
+     ```
+   * 해당 함수 부분을 동봉된 **`function gear().luau`** 파일 속 내용으로 교체합니다.
 
-`if _Tune.Clutch then`
+3. **`_Tune.Clutch` 구문 수정하기**
+   * 다시 `Ctrl + F`를 눌러 아래의 코드를 검색합니다.
+     ```lua
+     if _Tune.Clutch then
+     ```
+   * 해당 조건문 부분을 동봉된 **`if _Tune.Clutch.luau`** 파일 속 내용으로 교체합니다.
 
-그 부분을 아래의 코드 파일 속 내용으로 교체하기.
+4. **`AutoClutch` 비활성화하기**
+   * 탐색기(Explorer) 경로: `Car` > `A-Chassis Interface` > `Values` > `AutoClutch`
+   * 해당 위치에 있는 `AutoClutch` (BoolValue)의 **Value 체크를 해제**합니다.
 
-(if _Tune.Clutch.luau)
+5. **`A-Chassis Tune.lua` 설정 변경하기**
+   * 차량 설정 스크립트인 `A-Chassis Tune.lua`를 열고, 다음과 같은 설정으로 값을 변경합니다.
+     ```lua
+     Tune.Clutch            = true
+     Tune.TransModes        = {"Manual"}
 
-## - 'Autoclutch'라는 BoolValue 찾기
+     Tune.Stall             = true
+     Tune.ClutchRel         = true
+     ```
 
-Car.A-Chassis Interface.Values.AutoClutch
-
-Vaule 체크 해제하기
-
-## - A-Chassis Tune.lua 열기
-
-다음과 같은 설정으로 바꾸기
-
-```lua
-Tune.Clutch            = true
-Tune.TransModes        = {"Manual"}
-
-Tune.Stall            = true
-Tune.ClutchRel        = true
-```
+## 📄 라이선스
+본 프로젝트는 **MIT License**를 따릅니다.
+<br><sub>본 스크립트 수정 및 사용으로 인해 발생하는 모든 문제(오류 등)에 대해 원작자는 어떠한 법적 책임도 지지 않습니다. 모든 사용 책임은 사용자 본인에게 있습니다.</sub>
