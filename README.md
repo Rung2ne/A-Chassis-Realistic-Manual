@@ -5,12 +5,14 @@
 ![Windows 11](https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white)![Roblox Studio](https://img.shields.io/badge/Roblox%20Studio-%230a0b0b.svg?style=for-the-badge&logo=Roblox%20Studio&logoColor=white)<br/>
 ![Language](https://img.shields.io/badge/LAN-ff0000?style=for-the-badge&logo=LAN&logoColor=white)	![Luau](https://img.shields.io/badge/luau-%232C2D72.svg?style=for-the-badge&logo=luau&logoColor=white)<br/>
 ![Package](https://img.shields.io/badge/PKG-ff0000?style=for-the-badge&logo=PKG&logoColor=white) ![None](https://img.shields.io/badge/None-000000?style=for-the-badge&logo=None&logoColor=white)
+
 ## Roblox A-Chassis Car Realistic Manual.
 
 > [!NOTE]  
 > 본 리포지토리는 Roblox A-Chassis의 수동 변속기(Manual) 기믹을 보다 현실적으로 구현하기 위한 스크립트 수정 방법을 다룹니다.
 
-Roblox A-Chassis Car Realistic Manual 적용 가이드입니다.
+> [!WARNING]  
+> 본 코드를 이용한 차량 개조 작업 중 발생하는 A-Chassis 스크립트 오류 및 고장에 대해 원작자는 일체의 책임을 지지 않습니다. **스크립트 수정 전, 반드시 정상 작동하는 기존 차량 모델 혹은 스크립트를 백업(복제)한 후 작업을 진행하시기 바랍니다.** 모든 사용 및 수정 책임은 사용자 본인에게 있습니다.
 
 ## ⚠️ 필수 준비물
 * **A-Chassis**가 적용된 차량(Car) 모델이 준비되어 있어야 합니다.
@@ -25,14 +27,14 @@ Roblox A-Chassis Car Realistic Manual 적용 가이드입니다.
      ```lua
      function Gear()
      ```
-   * 해당 함수 부분을 동봉된 **`function gear().luau`** 파일 속 내용으로 교체합니다.
+   * 해당 함수 부분을 첨부된 **`function gear().luau`** 파일 속 내용으로 교체합니다.
 
 3. **`_Tune.Clutch` 구문 수정하기**
    * 다시 `Ctrl + F`를 눌러 아래의 코드를 검색합니다.
      ```lua
      if _Tune.Clutch then
      ```
-   * 해당 조건문 부분을 동봉된 **`if _Tune.Clutch.luau`** 파일 속 내용으로 교체합니다.
+   * 해당 조건문 부분을 첨부된 **`if _Tune.Clutch.luau`** 파일 속 내용으로 교체합니다.
 
 4. **`AutoClutch` 비활성화하기**
    * 탐색기(Explorer) 경로: `Car` > `A-Chassis Interface` > `Values` > `AutoClutch`
@@ -50,4 +52,4 @@ Roblox A-Chassis Car Realistic Manual 적용 가이드입니다.
 
 ## 📄 라이선스
 본 프로젝트는 **MIT License**를 따릅니다.
-<br><sub>본 스크립트 수정 및 사용으로 인해 발생하는 모든 문제(오류 등)에 대해 원작자는 어떠한 법적 책임도 지지 않습니다. 모든 사용 책임은 사용자 본인에게 있습니다.</sub>
+<br><sub>본 스크립트 수정 및 사용으로 인해 발생하는 모든 문제(오류 등)에 대해 원작자는 어떠한 책임도 지지 않습니다. 모든 사용 책임은 사용자 본인에게 있습니다.</sub>
