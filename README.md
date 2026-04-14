@@ -51,7 +51,21 @@
      Tune.ClutchRel         = true
      ```
 
-## 📄 라이선스
-본 프로젝트는 **MIT License**를 따릅니다.
-<br><sub>본 스크립트 수정 및 사용으로 인해 발생하는 모든 문제(오류 등)에 대해 원작자는 어떠한 책임도 지지 않습니다. 모든 사용 책임은 사용자 본인에게 있습니다.</sub><br/><br/>
+## ⚖️ 라이선스
+> [!NOTE]
+>
+> This project is licensed under **CC BY-NC-SA 4.0**.
+> 본 프로젝트는 **CC BY-NC-SA 4.0** 라이선스를 따릅니다.
+>
+> - **Non-Commercial (상업적 이용 금지):**
+>   - 본 소프트웨어를 **유료로 판매**하거나 상업적인 수익 목적으로 사용할 수 없습니다.
+>
+> - **Attribution (저작자 표시):**
+>   - 사용 시 원저작자(**Rung2ne**)를 명시해야 합니다.
+>
+> - **Share-Alike (동일 조건 변경 허락):**
+>   - 코드를 수정하여 배포할 경우, 동일한 라이선스를 적용해야 합니다.
+>
+> 자세한 내용은 [LICENSE.md](./LICENSE.md) 파일을 확인하세요.
+<br/><br/>
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z11XE7EJ)
