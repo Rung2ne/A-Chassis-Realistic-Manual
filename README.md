@@ -11,7 +11,8 @@
 
 # Roblox A-Chassis Car Realistic Manual.
 
-> [!NOTE]  
+> [!NOTE]
+> ## 언젠가 리메이크가 예정되어 있습니다. 
 > 본 리포지토리는 Roblox A-Chassis의 수동 변속기(Manual) 기믹을 보다 현실적으로 구현하기 위한 스크립트 수정 방법을 다룹니다.
 
 > [!WARNING]  
