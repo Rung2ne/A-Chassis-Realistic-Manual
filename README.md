@@ -25,7 +25,8 @@
 - [ ] **A-Chassis**가 적용된 차량(Car) 모델.
 
 ## 🪛 테스트된 샤시 버전
-- 1.4
+- Build 6C, Version 1.4
+- Build 6C, Version 1.5
 
 ## 🚀 적용 방법
 
