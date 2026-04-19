@@ -12,7 +12,6 @@
 # Roblox A-Chassis Car Realistic Manual.
 
 > [!NOTE]
-> ## 언젠가 리메이크가 예정되어 있습니다. 
 > 본 리포지토리는 Roblox A-Chassis의 수동 변속기(Manual) 기믹을 보다 현실적으로 구현하기 위한 스크립트 수정 방법을 다룹니다.
 
 > [!WARNING]  
@@ -31,7 +30,6 @@
      ```lua
      local _InControls = false
      ```
-
    * 그 밑에 아래의 변수를 추가합니다.
      ```lua
      local LaunchBuild = 0
@@ -61,7 +59,7 @@
    * 해당 함수를 전체 선택 후 아래의 함수로 교체합니다.
    ```lua
       function Inputs(dt)
-          local deltaTime = (60/(1/math.max(dt, 0.001))) -- dt가 0이 되는 것을 방지하는 math.max 추가
+          local deltaTime = (60/(1/math.max(dt, 0.001)))
           if _InThrot <= _IThrot then
               _InThrot = math.min(_IThrot,_InThrot+(_Tune.ThrotAcceldeltaTime))
           else
@@ -75,12 +73,12 @@
       end
       ```
    
-3. **`_Tune.Clutch` 구문 수정하기**
+4. **`function Gear()` 함수 수정하기**
    * 다시 `Ctrl + F`를 눌러 아래의 코드를 검색합니다.
      ```lua
-     if _Tune.Clutch then
+     function Gear()
      ```
-   * 해당 조건문 부분을 첨부된 **`if _Tune.Clutch.luau`** 파일 속 내용으로 교체합니다.
+   * 해당 함수를 전체 선택 후 **`function Gear().luau`** 파일 속 내용으로 교체합니다.
 
 4. **`AutoClutch` 비활성화하기**
    * 탐색기(Explorer) 경로: `Car` > `A-Chassis Interface` > `Values` > `AutoClutch`
