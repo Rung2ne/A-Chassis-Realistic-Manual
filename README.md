@@ -22,7 +22,7 @@
 
 ## 🚀 적용 방법
 
-1. **`Drive.lua` 스크립트 열기**
+1. **`Drive.luau` 스크립트 열기**
    * 탐색기(Explorer) 경로: `Car` > `A-Chassis Interface` > `Drive`
 
 2. **아이들 발진 변수 추가하기**
@@ -91,13 +91,23 @@
    * 탐색기(Explorer) 경로: `Car` > `A-Chassis Interface` > `Values` > `AutoClutch`
    * 해당 위치에 있는 `AutoClutch` (BoolValue)의 **Value 체크를 해제**합니다.
 
-5. **`A-Chassis Tune.lua` 설정 변경하기**
-   * 차량 설정 스크립트인 `A-Chassis Tune.lua`를 열고, 다음과 같은 설정으로 값을 변경합니다.
+5. **`A-Chassis Tune.luau` 설정 변경하기**
+   * 차량 설정 스크립트인 `A-Chassis Tune.luau`를 열고, 다음과 같은 설정으로 값을 변경합니다.
+     * 구동계를 수동으로 변경합니다.
      ```lua
      Tune.Clutch            = true
      Tune.TransModes        = {"Manual"}
-
+     ```
+     * 플라이휠의 값은 1~10을 추천합니다.
+     ```lua
+     Tune.Flywheel          = 1
+     ```
+     * 시동이 꺼지게 합니다.
+     ```lua
      Tune.Stall             = true
+     ```
+     * 악셀레이터를 누르고 있지 않을때만 변속이 되게 바꿉니다.
+     ```lua
      Tune.ClutchRel         = true
      ```
 
