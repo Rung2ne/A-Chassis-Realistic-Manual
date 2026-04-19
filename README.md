@@ -73,7 +73,14 @@
       end
       ```
    
-4. **`function Gear()` 함수 수정하기**
+4. **`function Engine(dt)` 함수 수정하기**
+   * 다시 `Ctrl + F`를 눌러 아래의 코드를 검색합니다.
+     ```lua
+     function Engine(dt)
+     ```
+   * 해당 함수를 전체 선택 후 **`function Engine(dt).luau`** 파일 속 내용으로 교체합니다.
+
+5. **`function Gear()` 함수 수정하기**
    * 다시 `Ctrl + F`를 눌러 아래의 코드를 검색합니다.
      ```lua
      function Gear()
