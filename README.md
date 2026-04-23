@@ -9,7 +9,7 @@
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z11XE7EJ)
 
 
-# Roblox A-Chassis Car Realistic Manual.
+# Roblox A-Chassis Realistic Manual
 
 > [!NOTE]
 > 본 리포지토리는 Roblox A-Chassis의 수동 변속기(Manual) 기믹을 보다 현실적으로 구현하기 위한 스크립트 수정 방법을 다룹니다.
