@@ -1,7 +1,8 @@
 # A-Chassis-Realistic-Manual
 [![방문자수   ](https://myhits.vercel.app/api/hit/https%3A%2F%2Fgithub.com%2FRung2ne%2FA-Chassis-Realistic-Manual?color=green&label=%EB%B0%A9%EB%AC%B8%EC%9E%90%EC%88%98+++&size=small)](https://myhits.vercel.app)
 ![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)<br/>
-![2025](https://img.shields.io/badge/2025-43B02A?style=for-the-badge&logo=2025&logoColor=white)<br/>
+![2025](https://img.shields.io/badge/2025-FFA500?style=for-the-badge&logo=2025&logoColor=white)
+![2026](https://img.shields.io/badge/2026-8A2BE2?style=for-the-badge&logo=2026&logoColor=white)<br/>
 ![Environment](https://img.shields.io/badge/ENV-ff0000?style=for-the-badge&logo=ENV&logoColor=white)
 ![Windows 11](https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white)![Roblox Studio](https://img.shields.io/badge/Roblox%20Studio-%230a0b0b.svg?style=for-the-badge&logo=Roblox%20Studio&logoColor=white)<br/>
 ![Language](https://img.shields.io/badge/LAN-ff0000?style=for-the-badge&logo=LAN&logoColor=white)	![Luau](https://img.shields.io/badge/luau-%232C2D72.svg?style=for-the-badge&logo=luau&logoColor=white)<br/>
