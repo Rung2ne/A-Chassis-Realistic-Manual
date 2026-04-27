@@ -1,4 +1,4 @@
-# A-Chassis-Realistic-Manual 1.4
+# A-Chassis-Realistic-Manual 1.5
 > [!NOTE]
 > 본 리포지토리는 Roblox A-Chassis의 수동 변속기(Manual) 기믹을 보다 현실적으로 구현하기 위한 스크립트 수정 방법을 다룹니다.
 > 
@@ -31,7 +31,7 @@
 
 예상 결과:
 
-     ```lua
+  ```lua
      local _InControls = false
 
      local LaunchBuild = 0
@@ -41,8 +41,8 @@
      local LURCH_DURATION = 0.6   -- 아이들 발진 지속 시간
      local LURCH_PEAK    = 2.5    -- 아이들 발진 토크 배수
 
-     --[[Shutdown]]
-     ```
+  --[[Shutdown]]
+  ```
 
 3. **`deltaTime` 변숫값 수정하기**
    * `Ctrl + F`를 눌러 아래의 코드를 검색합니다.
