@@ -30,6 +30,7 @@
      ```
 
 예상 결과:
+
      ```lua
      local _InControls = false
 
