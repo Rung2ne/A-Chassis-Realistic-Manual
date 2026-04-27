@@ -1,12 +1,10 @@
 function Engine(dt)
 	local deltaTime = (60/(1/math.max(dt, 0.001)))
-
-	-- Lurch Timer 감쇄
+
 	if _LurchTimer > 0 then
 		_LurchTimer = math.max(0, _LurchTimer - dt)
 	end
-
-	--Neutral Gear
+
 	if ((_CGear == 0 or _Shifting) and _IsOn) then 
 		_ClPressing = true
 		_Clutch = 1
