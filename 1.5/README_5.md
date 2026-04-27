@@ -28,15 +28,17 @@
      local LURCH_DURATION = 0.6   -- 아이들 발진 지속 시간
      local LURCH_PEAK    = 2.5    -- 아이들 발진 토크 배수
      ```
-     
- = 0
-local Rev = script.Parent.Values.RPM
 
-local LaunchBuild = 0
-local _LurchTimer = 0
-local _PrevGear = 0
-local LURCH_DURATION = 0.6   -- 아이들 발진 지속 시간
-local LURCH_PEAK    = 2.5    -- 아이들 발진 토크 배수
+예상 결과:
+     ```lua
+     local _InControls = false
+
+     local LaunchBuild = 0
+     local _LurchTimer = 0
+     local _StallTimer = 0
+     local _PrevGear = 0
+     local LURCH_DURATION = 0.6   -- 아이들 발진 지속 시간
+     local LURCH_PEAK    = 2.5    -- 아이들 발진 토크 배수
 
 --[[Shutdown]]
 ```
