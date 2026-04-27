@@ -41,8 +41,8 @@
      local LURCH_DURATION = 0.6   -- 아이들 발진 지속 시간
      local LURCH_PEAK    = 2.5    -- 아이들 발진 토크 배수
 
---[[Shutdown]]
-```
+     --[[Shutdown]]
+     ```
 
 3. **`deltaTime` 변숫값 수정하기**
    * `Ctrl + F`를 눌러 아래의 코드를 검색합니다.
