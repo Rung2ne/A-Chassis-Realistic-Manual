@@ -89,20 +89,20 @@ A-Chassis는 기본 기능만으로는 조금 심심해서 사람들이 기능�
    ```
    * 해당 함수를 전체 선택 후 아래의 함수로 교체합니다.
    ```lua
-      function Inputs(dt)
-          local deltaTime = (60/(1/math.max(dt, 0.001)))
-          if _InThrot <= _IThrot then
-              _InThrot = math.min(_IThrot,_InThrot+(_Tune.ThrotAcceldeltaTime))
-          else
-              _InThrot = math.max(_IThrot,_InThrot-(_Tune.ThrotDeceldeltaTime))
-          end
-          if _InBrake <= _IBrake then
-              _InBrake = math.min(_IBrake,_InBrake+(_Tune.BrakeAcceldeltaTime))
-          else
-              _InBrake = math.max(_IBrake,_InBrake-(_Tune.BrakeDeceldeltaTime))
-          end
-      end
-      ```
+   function Inputs(dt)
+       local deltaTime = (60/(1/math.max(dt, 0.001)))
+       if _InThrot <= _IThrot then
+           _InThrot = math.min(_IThrot,_InThrot+(_Tune.ThrotAccel*deltaTime))
+       else
+           _InThrot = math.max(_IThrot,_InThrot-(_Tune.ThrotDecel*deltaTime))
+       end
+       if _InBrake <= _IBrake then
+           _InBrake = math.min(_IBrake,_InBrake+(_Tune.BrakeAccel*deltaTime))
+       else
+           _InBrake = math.max(_IBrake,_InBrake-(_Tune.BrakeDecel*deltaTime))
+       end
+   end
+   ```
 
 4. **`function Gear()` 함수 수정하기**
    * 다시 `Ctrl + F`를 눌러 아래의 코드를 검색합니다.
